@@ -1,0 +1,13 @@
+python
+java
+c++
+sql
+aws
+azure
+docker
+react
+angular
+node
+flask
+django
+kubernetes
