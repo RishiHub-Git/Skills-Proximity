@@ -92,6 +92,7 @@ def extract_entities(text, job_skills):
         'match_quality': match_quality
     }
 
+#curl -X POST http://localhost:5000/api/v1/parseResume -F "file=@D:\LRS_Resume.pdf"
 @app.route('/api/v1/parseResume', methods=['POST'])
 def parse_resume():
     if 'file' not in request.files:
