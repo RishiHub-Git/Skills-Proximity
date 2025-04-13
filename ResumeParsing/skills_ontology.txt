@@ -1,13 +1,163 @@
-python
-java
-c++
-sql
-aws
-azure
-docker
-react
+abap
+abbyy finereader
+adobe creative suite
+agile development
+aircrack (penetration testing tool)
+ajax
+ajax framework
+android (mobile operating systems)
 angular
-node
-flask
-django
-kubernetes
+ansible
+apache maven
+apache tomcat
+apl
+application usability
+asp.net
+assembly (computer programming)
+atm systems
+backbox (penetration testing tool)
+blackarch
+blackberry
+blockchain application areas
+blockchain design patterns
+blockchain openness
+blockchain platforms
+c#
+c++
+cad software
+cadd software
+cae software
+cain and abel (penetration testing tool)
+cam software
+captioning software
+chef (tools for software configuration management)
+cisco
+cobol
+codenvy
+coffeescript
+common lisp
+computer programming
+computer science
+decentralized application frameworks
+devops
+digital twin technology
+dredging consoles
+drupal
+e-learning software infrastructure
+erlang
+firmware
+groovy
+hadoop
+hardware components
+hardware industry
+hardware materials
+hardware platforms
+hardware testing methods
+haskell
+hazard analysis and critical control points
+hybrid control systems
+ibm websphere
+ict architectural frameworks
+ict debugging tools
+ict performance analysis methods
+ict process quality models
+ict recovery techniques
+ict software specifications
+ict system programming
+ict system user requirements
+incremental development
+internet governance
+ios
+iterative development
+java (computer programming)
+javascript
+jenkins (tools for software configuration management)
+john the ripper (penetration testing tool)
+joomla
+kali linux
+ldap
+levels of software testing
+linq
+lisp
+machine translation
+maltego
+matlab
+mdx
+metasploit
+ml (computer programming)
+mobile device software frameworks
+mobile operating systems
+n1ql
+nessus
+nexpose
+object-oriented modelling
+objective-c
+octopus deploy
+omnipage
+openedge advanced business language
+operating systems
+optical character recognition software
+oracle application development framework
+oracle weblogic
+owasp zap
+parrot security os
+pascal (computer programming)
+penetration testing tool
+perl
+php
+prolog (computer programming)
+prototyping development
+puppet (tools for software configuration management)
+python (computer programming)
+quantum computing
+query languages
+rapid application development
+resource description framework query language
+ruby (computer programming)
+salt (tools for software configuration management)
+samurai web testing framework
+sap r3
+sas language
+scala
+scratch (computer programming)
+smalltalk (computer programming)
+smart contract
+smart contract programming languages
+software and applications development and analysis
+software anomalies
+software components libraries
+software components suppliers
+software design methodologies
+software frameworks
+software metrics
+software ui design patterns
+solidity
+spark
+sparql
+spiral development
+sql
+staf
+swift (computer programming)
+system design
+systems development life-cycle
+systems theory
+systems thinking
+thc hydra
+tools for ict test automation
+tools for software configuration management
+typescript
+usability engineering
+vagrant
+vbscript
+visual basic
+vyper
+waterfall development
+web programming
+web services
+webcms
+whitehat sentinel
+wildfly
+wireshark
+wordpress
+world wide web consortium standards
+xquery

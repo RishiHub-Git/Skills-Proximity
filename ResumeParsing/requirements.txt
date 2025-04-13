@@ -1,0 +1,8 @@
+pip install openai
+pip install flask
+pip install tika
+pip install pymongo
+pip install dotenv
+pip install python-dotenv
+pip install scikit-learn
+pip install numpy

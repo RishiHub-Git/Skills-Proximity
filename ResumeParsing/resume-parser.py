@@ -11,6 +11,7 @@ from pymongo import MongoClient
 #from services.llm_skill_extractor import LLMSkillExtractor
 from services.llm_skill_extractor_v2 import LLMSkillExtractor
 from services.ontology_skill_extractor import OntologySkillExtractor
+from services.semantic_matcher import SkillSimilarityScorer
 
 # Initialize the Flask application
 app = Flask(__name__)
@@ -44,7 +45,7 @@ def parse_with_tika(file_path):
     parsed = parser.from_file(file_path)
     return parsed.get('content', '').strip()
 
-def extract_entities(text):
+def extract_entities(text, job_skills):
     # Simple regex-based extraction (can be replaced with NER models later)
     email = re.findall(r'[\w\.-]+@[\w\.-]+', text)
     
@@ -52,19 +53,43 @@ def extract_entities(text):
     raw_phones = re.findall(r'(\+\d{1,3}[\s-]?)?(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})', text)
     phone = ''.join(raw_phones[0]) if raw_phones else None
 
-    # Combine skills from both LLM and Ontology
-    llm_extractor = LLMSkillExtractor(api_key= passPhrase)
     ontology_extractor = OntologySkillExtractor()
-    
-    # Extracted using both methods
-    skills_llm = llm_extractor.extract_skills(text)
     skills_ontology = ontology_extractor.extract_skills(text)
 
+    # Get average vector for resume and job skill sets
+    if not skills_ontology or not job_skills:
+        similarity_score = 0.0
+        match_quality = "Low"
+    else:
+        # Initialize semantic matcher
+        matcher = SkillSimilarityScorer(api_key=passPhrase)
+        # Compare with job requirements
+        similarity_score = matcher.compute_similarity(skills_ontology, job_skills)
+
+        # Match flag
+        if similarity_score >= 1.0:
+            match_quality = "Perfect"
+        elif similarity_score >= 0.7:
+            match_quality = "High"
+        elif similarity_score >= 0.6:
+            match_quality = "Good"
+        else:
+            match_quality = "Low"
+    
+    # Only extract LLM skills if match is Good or above
+    if similarity_score >= 0.6:
+        llm_extractor = LLMSkillExtractor(api_key=passPhrase)
+        skills_llm = llm_extractor.extract_skills(text)
+    else:
+        skills_llm = []
+    
     return {
         'email': email[0] if email else None,
         'phone': phone,
-        'skills_llm': skills_llm,
-        'skills_ontology': skills_ontology
+        'skills_ontology': [{"name": s, "source": "Ontology"} for s in skills_ontology],
+        'skills_llm': [{"name": s, "source": "LLM"} for s in skills_llm],
+        'match_score': similarity_score,
+        'match_quality': match_quality
     }
 
 @app.route('/api/v1/parseResume', methods=['POST'])
@@ -80,8 +105,44 @@ def parse_resume():
         save_path = os.path.join(app.config['UPLOAD_FOLDER'], f"{file_id}_{filename}")
         file.save(save_path)
         try:
+            # Example job skill list
+            job_skills = [
+                ".NET Core",
+                "Angular",
+                "Kafka",
+                "Redis",
+                "Distributed Systems",
+                "Microservices",
+                "API Gateway",
+                "3rd Party Integration Service",
+                "Java",
+                "Selenium",
+                "JSF",
+                "Hibernate",
+                "PrimeFaces UI",
+                "Cohere",
+                "OpenAI LLMs",
+                "Hugging Face",
+                "Azure",
+                "DevOps",
+                "Generative AI",
+                "AI Embedding",
+                "RAG",
+                "CICD",
+                "TFS",
+                "ASP.NET MVC",
+                "ZAP",
+                "Burp Suite",
+                "SonarQube",
+                "Distributed Caching",
+                "ORM",
+                "Secure Coding",
+                "Agile Practices",
+                "JavaScript"
+            ]
+
             parsed_text = parse_with_tika(save_path)
-            extracted_entities = extract_entities(parsed_text)
+            extracted_entities = extract_entities(parsed_text, job_skills)
 
             #After parse, file not needed
             os.remove(save_path)

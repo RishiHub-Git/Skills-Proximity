@@ -1,0 +1,503 @@
+{
+    "file_id": "06982470-169d-45e1-ba06-010b96136d6a",
+    "filename": "LRS_Resume.pdf",
+    "parsed_text": "LOUKRAKPAM RISHIDEV SINGH \nEnterprise Architect \n\n  7428717903      RL.RISHIDEVL@GMAIL.COM \n\n  www.linkedin.com/in/rishidev-loukrakpam-69a05216    New Delhi, India \n\n \n\nSUMMARY  \n\n \nStrategic and innovative Enterprise Architect with extensive experience in \n\nmodernizing legacy systems, designing scalable architectures, and leading cross-\n\nfunctional teams to deliver transformative IT solutions. With a proven track record of \n\narchitecting enterprise-grade systems, I specialize in aligning technology strategies \n\nwith business objectives, leveraging expertise in .NET Core, Angular, Kafka, Redis, and \n\ndistributed systems. My leadership ensures secure, high-performing, and \n\nmaintainable solutions that drive organizational growth and success. \n\nEXPERIENCE  \n \n\n \nEnterprise Architect \n\nAcro Technologies India Private Ltd. \n      02/2019 - Present          New Delhi  \n \n\n• Led the modernization of a legacy Vendor Management System (XRM) by \ntransitioning it to a Modular Monolith Hybrid Architecture with .NET Core Web \nAPI and Angular. \n \n\n• Designed & Implemented several Microservices & Framework for API Gateway \nusing Ocelot, Authentication Mechanism (Form, Token, Auth0, SSO), Localization \nService, Distributed Cache Service, 3rd Party Integration Service, Bulk Upload \nService, Background Service, Central Document Management Service, Email \nProcessing Service, Logging Service, Messaging Queue Service with Kafka. \n \n\n• Designed and developed a comprehensive Code Generation Application, \nautomating the creation of essential .NET Core framework classes and reducing \ndevelopment timelines. \n \n\n• Built an in-house Test Automation Framework using Java and Selenium, enabling \nintegration, smoke, and regression testing. \n\n \n\n• Migrated the Juvenile Detention Centre Management Application \"SARA\" from \nJava and JSP to JSF with Hibernate and PrimeFaces UI, improving maintainability, \nuser experience, and performance. \n \n\n• Conducted a comprehensive security audit of the \"SARA\" application, identifying \nand mitigating vulnerabilities to ensure compliance with security standards. \n \n\n• Designed and developed a GenAI RAG Application using Cohere, OpenAI LLMs, \nand Hugging Face sentence-transformer to streamline access to architecture and \nframework guidelines, empowering developers with efficient search and \nretrieval of documentation. \n \n\n• Established a Centre of Excellence (CoE) with senior developers for R&D, \narchitecture enhancement, and technical support. \n \n\nCERTIFICATION  \n\nMicrosoft Certified Azure Developer \nAssociate \n\nMicrosoft Certified Azure Developer \nAssociate. \n\nAzure Solution Architect \n\nAzure Solution Architect certification. \n\nCertified DevOps Associate \n\nDevOps Associate certification. \n\nGenerative AI & Its Applications \n\nGenAI & Its Applications Industrial Training \ncertification. \n\nAI Mastery Bootcamp \n\nAI Mastery Bootcamp Participation \ncertification. \n\nAI Embedding & RAG \n\nAI Embedding & RAG Workshop \nParticipation certification. \n \n \n\nKEY ACHIEVEMENTS  \n\n \nVendor Management System \nModernization \n\nLed the successful modernization of critical \nlegacy systems, resulting in improved \noperational efficiency and developer \nproductivity. \n\n \n\nHybrid Architecture Design \n\nArchitected a scalable, modular hybrid \nsystem integrating API Gateway, \nAuthentication/Authorization, distributed \ncaching, and asynchronous messaging \nusing Kafka, enabling seamless scalability \nand enhanced system performance. \n \n\nIn-House Test Automation \nFramework \n\nDeveloped a robust test automation \nframework with Java and Selenium, \nenabling integration, smoke, and regression \ntesting, resulting in significantly reduced \ntesting time and enhanced quality \nassurance. \n\nhttps://www.linkedin.com/in/rishidev-loukrakpam-69a05216\n\n\n• Implemented CICD pipelines using TFS for various applications like Web API, \nASP.NET MVC, Angular streamlining deployment processes across Dev, QA, SIT, \nUAT, and Production environments. \n\n• Enhanced application security by mitigating OWASP vulnerabilities and \nconducting proactive audits using ZAP, Burp Suite, and SonarQube. \n \n\n• Improved API and front-end performance with distributed caching, async calls, \nlazy loading, and GZIP compression. \n \n\n• Trained over 100 developers and leads on .NET Core, ORM, Angular, and Secure \nCoding, Agile practices through hands-on workshops and sessions. \n \n\n• Taken 100s of interviews and help onboarding many potential candidates. \n \n\n \nIT Operation Manager \nSangai Technologies India Private Ltd. \n       2015 – 2018                     Manipur \n\n \n\n• Managed multiple end-to-end projects, from bidding and requirement gathering \nto development and release cycles, ensuring timely delivery and alignment with \nbusiness goals. \n \n\n• Spearheaded the development and deployment of key applications: \no Hospital Management System: Designed and developed using Java \n\ntechnology to streamline hospital operations. \no e-Thabak: An online job portal connecting recruiters and job seekers, built \n\nwith ASP.NET MVC. \no Find In Manipur: A government smart city initiative geo-location mobile app \n\nenabling users to find essential places like hospitals, gas stations, schools, \nand ATMs. Developed with: \n\no Backend: Node.js Web API and MongoDB database. \no Android App: Java. \no iOS App: Swift. \n\n \n\n• Established and enforced IT policies like Acceptable Use Policy (AUP), Password \nPolicy, Remote Access Policy, Procedures, and best practices to ensure system \nreliability and security. \n\n \n\n• Coordinated cross-functional teams and stakeholders to ensure smooth \nexecution and delivery of IT projects. \n\n \n\n \nSr. Programmer Analyst \nAcro Technologies India Private Ltd. \n       2010 – 2015                     Manipur \n\n \n\n• Migrated the legacy Vendor Management System (VMS) from Classic ASP with \nC# and VBScript to ASP.NET 3.5 with C# for backend and ASPX, JavaScript, and \njQuery for frontend. \n \n\n• Optimized application performance by converting in-line queries and business \nlogic into stored procedures and views, ensuring improved security and \nexecution efficiency. \n\n \n\n• Upgraded UI components by replacing ASP.NET controls with Telerik ASP.NET \njQuery UI controls, implementing pagination, load-on-demand techniques, and \noptimized ViewState management. \n\n \n\n• Secured the application against vulnerabilities such as SQL Injection, session \nhijacking, and local storage exploitation through parameterized queries, \nencrypted uploads, and secure cache management. \n\n \n\nDynamic Code Generation \nApplication \n\nDeveloped a Code Generation Application \nto automate the creation of essential VMS \narchitecture classes, ensuring compliance \nwith standards and accelerating \ndevelopment cycles with plug-and-play \nfunctionality. \n\n \n\nGenAI RAG Application \n\n \n\nDeveloped a GenAI RAG (Retrieve-and-\nGenerate) application leveraging Cohere, \nOpenAI LLMs, and Hugging Face sentence-\ntransformer, enabling developers to \nefficiently search and access architecture \nand framework guidelines for both backend \nand frontend development. \n \n\nCentre of Excellence (CoE) \n\nEstablishment \n\nEstablished and mentored a Centre of \n\nExcellence (CoE) team, upskilling \n\ndevelopers in .NET Core, ORM, and \n\nAngular, ensuring seamless adoption of \n\nnew technologies. \n\n \n\nApplication Security Enhancement \n\nEnhanced application security by \n\nidentifying and mitigating OWASP \n\nvulnerabilities, implementing encryption, \n\nhashing, and proactive audits using tools \n\nlike SonarQube and ZAP. \n\n \n\nSystem Performance Optimization \nImproved system performance through \ndistributed caching, API optimization, and \nlazy loading, validated by comprehensive \nperformance testing with JMeter. \n \n \n\nCOMPETENCIES  \n \n \n\nArchitectural Strategy and \nImplementation \n\n \nTechnical Leadership \n\n \nSoftware Development Lifecycle (SDLC) \nManagement \n\n \nTool and Framework Innovation \n\n \nAI and Data-Driven Decision Making \n\n \nSecurity and Compliance Leadership \n\n \n\n\n\n \n\n \n\n• Developed an innovative dynamic module-generation system, enabling runtime \nUI control generation and database-driven configuration for business logic and \nscreens. \n\n \n\n• Provided technical support to over five clients, resolving bugs and addressing \nqueries within an SLA of 1–2 hours during night shifts, while serving as a lead for \nthe development team during day shifts. \n\n \n\n• Led a team of 20 members, overseeing the development and enhancement of \nthe VMS system, ensuring timely delivery of client requirements and maintaining \nsystem stability. \n\n \n\n• Collaborated directly with clients to gather requirements, coordinate queries, \nand implement enhancements, demonstrating effective client management and \ncommunication skills. \n\n \n\nAssociate DBA \nRJ Enterprise \n       2009 (8 Months)              Manipur \n\n \n\n• Developed a Windows Form Application with VB for managing commodities for \na whole-seller enterprise, utilizing MSSQL and Microsoft Access as backend \ndatabases. \n \n\n• Managed and maintained the database, ensuring data integrity and \nperformance. \n\nPerformance Optimization and \nScalability \n\n \nDevOps and Continuous Improvement \n\n \nClient and Stakeholder Engagement \n\n \nProblem-Solving and Innovation \n\n \nSystem Monitoring and Maintenance \n\n \nProcess Optimization \n \n\nEDUCATION  \n \n\nDiploma in Dot Net Technologies  \nNIIT \n      2010       South Ex.-New Delhi  \n\n \n\nBachelor of Engineering (Computer Science)  \nManipur Institute of Technology, Manipur University \n      2009       Imphal-Manipur \n\n \n\nHigher Secondary School Leaving Certificate Examination  \nHuman Resource Academy, Council of Secondary Education \n      2005       Imphal-Manipur \n\n \n\nHigh School Leaving Certificate Examination  \nChurachand Higher Secondary School, Board of Secondary Education \n      2003       Imphal-Manipur \n\nSKILLS  \n \nMonolith    Layered    SOA     \n\nEvent-Driven     API Gateway   \n\nIntegration-Oriented    SPA     \n\nPWA    C    C++    VB    C#    Java     \n\nJavaScript    jQUery     \n\nTypeScript    Python    NodeJS     \n\nSwift    MSSQL    MySQL   \n\n \nPROJECTS  \n \n\nXRM System (Vendor Management System) \n       2015 – 2018  \n\nTechnology Stacks:  \n.NET Core, Web API, Entity Framework Core, Angular, Kendo, MSSQL \n \n \n\nDCW \n       2015 – 2018 \n \n\nACAMS \n       2015 – 2018 \n \n\nMongoDB    Selenium     \n\nASP.NET    ASP.NET MVC     \n\n.NET Core    Web API    Angular     \n\nEntity Framework Core    \n\nMSMQ    Kafka    Redis     \n\nKendo UI    PrimeFaces UI    \n\nSignalR    GenAI    RAG    OpenAI    \n\n\n\n \n\nSARA \n       2015 – 2018 \n \n\nTest Automation Framework Tool \n       2015 – 2018 \n \n\nCode Generation Tool \n       2015 – 2018 \n \n\nGenAI RAG for Coding Guidelines \n       2015 – 2018 \n \n\nHospital Management System \n       2015 – 2018 \n \n\nE-Thabak \n       2015 – 2018 \n \n\nFindInManipur \n       2015 – 2018 \n\nLLM    SonarQube    ZAP    \n\nBurpSuite    SQLMap    \n\nAgile Methodology    TFS    Azure \n\nDevOps    Git    GitHub    Docker    \n\nKubernetes    Postman    \n\nPrometheus    Grafana    Nagios    \n\nJMeter    IIS    Nginx    Azure \n\nCloud    WSL",
+    "entities": {
+        "email": "RL.RISHIDEVL@GMAIL.COM",
+        "phone": "7428717903",
+        "skills_ontology": [
+            {
+                "name": "hibernate",
+                "source": "Ontology"
+            },
+            {
+                "name": "java",
+                "source": "Ontology"
+            },
+            {
+                "name": "distributed caching",
+                "source": "Ontology"
+            },
+            {
+                "name": "angular",
+                "source": "Ontology"
+            },
+            {
+                "name": "api gateway",
+                "source": "Ontology"
+            },
+            {
+                "name": "sonarqube",
+                "source": "Ontology"
+            },
+            {
+                "name": "hugging face",
+                "source": "Ontology"
+            },
+            {
+                "name": "3rd party integration service",
+                "source": "Ontology"
+            },
+            {
+                "name": "generative ai",
+                "source": "Ontology"
+            },
+            {
+                "name": "tfs",
+                "source": "Ontology"
+            },
+            {
+                "name": "openai llms",
+                "source": "Ontology"
+            },
+            {
+                "name": "microservices",
+                "source": "Ontology"
+            },
+            {
+                "name": "primefaces ui",
+                "source": "Ontology"
+            },
+            {
+                "name": "selenium",
+                "source": "Ontology"
+            },
+            {
+                "name": "distributed systems",
+                "source": "Ontology"
+            },
+            {
+                "name": "burp suite",
+                "source": "Ontology"
+            },
+            {
+                "name": "rag",
+                "source": "Ontology"
+            },
+            {
+                "name": "cohere",
+                "source": "Ontology"
+            },
+            {
+                "name": "cicd",
+                "source": "Ontology"
+            },
+            {
+                "name": "devops",
+                "source": "Ontology"
+            },
+            {
+                "name": "javascript",
+                "source": "Ontology"
+            },
+            {
+                "name": "jsf",
+                "source": "Ontology"
+            },
+            {
+                "name": "redis",
+                "source": "Ontology"
+            },
+            {
+                "name": "orm",
+                "source": "Ontology"
+            },
+            {
+                "name": "asp.net mvc",
+                "source": "Ontology"
+            },
+            {
+                "name": "kafka",
+                "source": "Ontology"
+            },
+            {
+                "name": "azure",
+                "source": "Ontology"
+            },
+            {
+                "name": "agile practices",
+                "source": "Ontology"
+            },
+            {
+                "name": "ai embedding",
+                "source": "Ontology"
+            },
+            {
+                "name": "zap",
+                "source": "Ontology"
+            }
+        ],
+        "skills_llm": [
+            {
+                "name": ".NET Core",
+                "source": "LLM"
+            },
+            {
+                "name": "Angular",
+                "source": "LLM"
+            },
+            {
+                "name": "Kafka",
+                "source": "LLM"
+            },
+            {
+                "name": "Redis",
+                "source": "LLM"
+            },
+            {
+                "name": "Distributed Systems",
+                "source": "LLM"
+            },
+            {
+                "name": "Ocelot",
+                "source": "LLM"
+            },
+            {
+                "name": "Authentication Mechanism",
+                "source": "LLM"
+            },
+            {
+                "name": "SSO",
+                "source": "LLM"
+            },
+            {
+                "name": "Localization Service",
+                "source": "LLM"
+            },
+            {
+                "name": "Distributed Cache Service",
+                "source": "LLM"
+            },
+            {
+                "name": "3rd Party Integration Service",
+                "source": "LLM"
+            },
+            {
+                "name": "Bulk Upload Service",
+                "source": "LLM"
+            },
+            {
+                "name": "Background Service",
+                "source": "LLM"
+            },
+            {
+                "name": "Central Document Management Service",
+                "source": "LLM"
+            },
+            {
+                "name": "Email Processing Service",
+                "source": "LLM"
+            },
+            {
+                "name": "Logging Service",
+                "source": "LLM"
+            },
+            {
+                "name": "Messaging Queue Service",
+                "source": "LLM"
+            },
+            {
+                "name": "Java",
+                "source": "LLM"
+            },
+            {
+                "name": "Selenium",
+                "source": "LLM"
+            },
+            {
+                "name": "JSF",
+                "source": "LLM"
+            },
+            {
+                "name": "Hibernate",
+                "source": "LLM"
+            },
+            {
+                "name": "PrimeFaces UI",
+                "source": "LLM"
+            },
+            {
+                "name": "Cohere",
+                "source": "LLM"
+            },
+            {
+                "name": "OpenAI",
+                "source": "LLM"
+            },
+            {
+                "name": "Hugging Face",
+                "source": "LLM"
+            },
+            {
+                "name": "Centre of Excellence",
+                "source": "LLM"
+            },
+            {
+                "name": "Azure",
+                "source": "LLM"
+            },
+            {
+                "name": "DevOps",
+                "source": "LLM"
+            },
+            {
+                "name": "Generative AI",
+                "source": "LLM"
+            },
+            {
+                "name": "AI Embedding",
+                "source": "LLM"
+            },
+            {
+                "name": "RAG",
+                "source": "LLM"
+            },
+            {
+                "name": "CICD",
+                "source": "LLM"
+            },
+            {
+                "name": "TFS",
+                "source": "LLM"
+            },
+            {
+                "name": "ASP.NET MVC",
+                "source": "LLM"
+            },
+            {
+                "name": "OWASP",
+                "source": "LLM"
+            },
+            {
+                "name": "ZAP",
+                "source": "LLM"
+            },
+            {
+                "name": "Burp Suite",
+                "source": "LLM"
+            },
+            {
+                "name": "SonarQube",
+                "source": "LLM"
+            },
+            {
+                "name": "Async Calls",
+                "source": "LLM"
+            },
+            {
+                "name": "Lazy Loading",
+                "source": "LLM"
+            },
+            {
+                "name": "GZIP Compression",
+                "source": "LLM"
+            },
+            {
+                "name": "ORM",
+                "source": "LLM"
+            },
+            {
+                "name": "Secure Coding",
+                "source": "LLM"
+            },
+            {
+                "name": "Agile",
+                "source": "LLM"
+            },
+            {
+                "name": "JavaScript",
+                "source": "LLM"
+            },
+            {
+                "name": "jQuery",
+                "source": "LLM"
+            },
+            {
+                "name": "Node.js",
+                "source": "LLM"
+            },
+            {
+                "name": "MongoDB",
+                "source": "LLM"
+            },
+            {
+                "name": "Swift",
+                "source": "LLM"
+            },
+            {
+                "name": "VB",
+                "source": "LLM"
+            },
+            {
+                "name": "MSSQL",
+                "source": "LLM"
+            },
+            {
+                "name": "MySQL",
+                "source": "LLM"
+            },
+            {
+                "name": "C",
+                "source": "LLM"
+            },
+            {
+                "name": "C++",
+                "source": "LLM"
+            },
+            {
+                "name": "C#",
+                "source": "LLM"
+            },
+            {
+                "name": "TypeScript",
+                "source": "LLM"
+            },
+            {
+                "name": "Python",
+                "source": "LLM"
+            },
+            {
+                "name": "SignalR",
+                "source": "LLM"
+            },
+            {
+                "name": "GenAI",
+                "source": "LLM"
+            },
+            {
+                "name": "RAG",
+                "source": "LLM"
+            },
+            {
+                "name": "OpenAI",
+                "source": "LLM"
+            },
+            {
+                "name": "MSMQ",
+                "source": "LLM"
+            },
+            {
+                "name": "Kendo UI",
+                "source": "LLM"
+            },
+            {
+                "name": "LLM",
+                "source": "LLM"
+            },
+            {
+                "name": "SQLMap",
+                "source": "LLM"
+            },
+            {
+                "name": "Git",
+                "source": "LLM"
+            },
+            {
+                "name": "GitHub",
+                "source": "LLM"
+            },
+            {
+                "name": "Docker",
+                "source": "LLM"
+            },
+            {
+                "name": "Kubernetes",
+                "source": "LLM"
+            },
+            {
+                "name": "Postman",
+                "source": "LLM"
+            },
+            {
+                "name": "Prometheus",
+                "source": "LLM"
+            },
+            {
+                "name": "Grafana",
+                "source": "LLM"
+            },
+            {
+                "name": "Nagios",
+                "source": "LLM"
+            },
+            {
+                "name": "JMeter",
+                "source": "LLM"
+            },
+            {
+                "name": "IIS",
+                "source": "LLM"
+            },
+            {
+                "name": "Nginx",
+                "source": "LLM"
+            },
+            {
+                "name": "Azure Cloud",
+                "source": "LLM"
+            },
+            {
+                "name": "WSL",
+                "source": "LLM"
+            },
+            {
+                "name": "Architectural Strategy",
+                "source": "LLM"
+            },
+            {
+                "name": "Technical Leadership",
+                "source": "LLM"
+            },
+            {
+                "name": "SDLC Management",
+                "source": "LLM"
+            },
+            {
+                "name": "Tool and Framework Innovation",
+                "source": "LLM"
+            },
+            {
+                "name": "AI and Data-Driven Decision Making",
+                "source": "LLM"
+            },
+            {
+                "name": "Security and Compliance Leadership",
+                "source": "LLM"
+            },
+            {
+                "name": "Performance Optimization",
+                "source": "LLM"
+            },
+            {
+                "name": "Scalability",
+                "source": "LLM"
+            },
+            {
+                "name": "Client and Stakeholder Engagement",
+                "source": "LLM"
+            },
+            {
+                "name": "Problem-Solving",
+                "source": "LLM"
+            },
+            {
+                "name": "Innovation",
+                "source": "LLM"
+            },
+            {
+                "name": "System Monitoring",
+                "source": "LLM"
+            },
+            {
+                "name": "Maintenance",
+                "source": "LLM"
+            },
+            {
+                "name": "Process Optimization",
+                "source": "LLM"
+            }
+        ],
+        "match_score": 0.858,
+        "match_quality": "High"
+    }
+}

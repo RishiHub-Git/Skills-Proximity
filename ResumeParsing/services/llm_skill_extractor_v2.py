@@ -8,30 +8,36 @@ class LLMSkillExtractor:
         self.client = OpenAI(api_key=api_key)
 
     def fix_json(self, json_result):
-        # Fix trailing comma
-        # If it ends with `,"`, it means a broken item started
+        json_result = json_result.strip()
+
+        # Fix trailing comma if present
         if json_result.endswith(','):
             json_result = re.sub(r',\s*$', '', json_result)
 
-        # Attempt to fix the final malformed element
+        # Fix case where the last item ends with `"\n"]`
+        # i.e., a stray closing bracket on the next line
+        if re.search(r'"\s*\n*\s*\]$', json_result):
+            json_result = re.sub(r'"\s*\n*\s*\]$', '"]', json_result)
+
+        # Attempt to fix unclosed string
         if not json_result.endswith(']'):
-            # Try to close the last quote if it looks like an unclosed string
             if json_result.count('"') % 2 != 0:
                 json_result += '"'
             json_result += ']'
 
-        # Remove invalid items like `"SomeText]`
+        # Remove invalid endings like `"SomeText]`
         json_result = re.sub(r'"([^"]+?)\]$', r'"\1"]', json_result)
+
         return json_result
     
     def extract_skills(self, resume_text):
         prompt = f"""
-You are an expert technical recruiter. Analyze the candidate's resume below and return a JSON list of relevant technical and soft skills. Include both:
+You are an expert technical recruiter. Analyze the candidate's resume below and return a valid error free JSON list (example: [".NET Core","Angular","Kafka"]) of relevant technical and soft skills. Include both:
 
 - Skills explicitly mentioned in the resume
 - Inferred skills based on job roles, certifications, or education
 
-⚠️ Return **only** a valid JSON array of skill strings. Do **not** include any explanations or formatting.
+⚠️ Return **only** a valid JSON array of skill strings without the prefix '```json' in the response. Do **not** include any explanations or formatting.
 
 Resume:
 \"\"\"
@@ -40,10 +46,10 @@ Resume:
 """
 
         response = self.client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o",  # or "gpt-4-turbo"
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
-            max_tokens=300
+            max_tokens=500
         )
 
         result = response.choices[0].message.content.strip()
